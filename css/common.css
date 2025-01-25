@@ -279,6 +279,19 @@ main{
     margin-top: 130px;
 }
 
+footer{
+    text-align: center;
+    font-size: var(--size-14px);
+    background: var(--secondary-color);
+    padding: 20px;
+    & p{
+        color: var(--forth-color);
+        & a{
+            color: var(--primary-color);
+        }
+    }
+}
+
 /******************************************************************************************************
 Start media query
 ******************************************************************************************************/
