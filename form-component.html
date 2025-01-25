@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <head>
+            <meta charset="UTF-8" />
+            <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+            <title>Form component</title>
+            <meta name="discreption" content="This is dashbord" />
+            <meta name="keywords" content="Testing dashbord" />
+            <meta name="author" content="Sourav Rupani" />
+            <meta name="robots" content="index, following" />
+            <!--============================= Meta og for microsoft app ==========================-->
+            <meta name="msapplication-TileImage" content="" />
+            <!--============================= Meta og for facebook & whatsap ======================-->
+            <meta property="og:site_name" content="Sourav Rupani Portfolio" />
+            <meta property="og:title" content="Sourav Rupani, an expert PHP Developer specializing in Laravel, creates high-performance web applications. I focus on clean code, SEO optimization, and responsive design to enhance user experience and drive traffic.">
+            <meta property="og:description" content="You also check my created project." />
+            <!--============================== Meta og image to display ==========================-->
+            <meta property="og:image" itemprop="image" content="" />
+            <meta property="og:type" content="website" />
+            <meta property="og:image:type" content="image/png" />
+            <!--======== Any size up to 300. Anything above 300px will not work in whatsApp ========-->
+            <meta property="og:image:width" content="300" />
+            <meta property="og:image:height" content="300" />
+            <!--============== Website to visit when clicked in Facebook or WhatsApp ===============-->
+            <meta property="og:url" content="" />
+            <!--=============================== Favicon file link's ==============================-->
+            <link rel="icon" type="image/png" href="" sizes="96x96" />
+            <link rel="icon" type="image/svg+xml" href="" />
+            <link rel="shortcut icon" href="" />
+            <link rel="apple-touch-icon" sizes="180x180" href="" />
+            <link rel="manifest" href="" />
+            <!--=============================== Internal file link's ==============================-->
+            <link rel="stylesheet" href="./css/bootstrap-grid.min.css" />
+            <link rel="stylesheet" href="./css/common.css" />
+            <link rel="stylesheet" href="./css/form-component.css" />
+    
+        </head>
+    </head>
+    <body>
+
+        <div class="container d-flex justify-content-center align-items-center h-100">
+
+            <form action="" class="form form1">
+    
+                <div class="heading">
+                    <b><span>Create form</span></b>
+                </div><!--./heading-->
+    
+                <div class="input_box">
+                    <label>
+                        <span>Name</span>
+                        <input type="text" name="name" autofocus />
+                    </label>
+                </div><!--./input_box-->
+    
+                <div class="input_box">
+                    <label>
+                        <span>Email</span>
+                        <input type="email" name="name" />
+                    </label>
+                </div><!--./input_box-->
+
+                <div class="input_lavel d-block d-lg-flex align-items-center justify-content-between" style="gap: 15px;">
+
+                    <div class="input_box" style="width: 100%;">
+                        <label>
+                            <span>Password</span>
+                            <input type="password" name="password" />
+                        </label>
+                    </div><!--./input_box-->
+
+                    <div class="input_box" style="width: 100%;">
+                        <label>
+                            <span>Confirm password</span>
+                            <input type="password" name="password" />
+                        </label>
+                    </div><!--./input_box-->
+                    
+                </div><!--./input_lavel-->
+
+                <div class="select_box">
+                    <span>Select brand</span>
+                    <select name="#">
+                        <option value="#">Name</option>
+                        <option value="#">Name2</option>
+                        <option value="#">Name3</option>
+                        <option value="#">Name4</option>
+                        <option value="#">Name5</option>
+                        <option value="#">Name6</option>
+                    </select>
+                </div><!--./input_box-->
+    
+                <button class="submit_btn">
+                    Submit
+                </button>
+            </form>
+
+        </div>
+    </body>
+</html>
